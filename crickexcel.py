@@ -21,8 +21,7 @@ stats=wb.create_sheet("stats")
 recent.freeze_panes='B1'
 stats.freeze_panes='C1'
 
-today_url="https://www.espncricinfo.com/series/indian-premier-league-2024-1410320/rajasthan-royals-vs-lucknow-super-giants-4th-match-1422122"
-
+today_url=input("type our fantasy match link")
 main_url="https://www.espncricinfo.com"
 #test_id='/player/shadab-khan-922943'
 header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
